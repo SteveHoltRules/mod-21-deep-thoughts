@@ -48,7 +48,7 @@ const typeDefs = gql`
     addReaction(thoughtId: ID!, reactionBody: String!): Thought
     addFriend(friendId: ID!): User
   }
-  `;
+`;
 
 
 // export the typeDefs
